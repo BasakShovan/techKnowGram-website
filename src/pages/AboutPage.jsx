@@ -1,7 +1,7 @@
 import React from 'react';
 import ceo from '../assets/AKM AHMEDUL ISLAM BABU.png';
 import chair from '../assets/chair.jpg';
-import zinat from '../assets/zinat.jpg';
+
 
 // আপনার ছবিগুলো এখানে ইমপোর্ট করুন
 // import ceoImage from '../assets/ceo.png';
@@ -48,7 +48,7 @@ const AboutPage = () => {
 
             {/* মেম্বার কার্ড - ৩ */}
             <div className="text-center">
-              <img src={zinat}
+              <img src=""
                alt="Director" className="w-40 h-40 rounded-full mx-auto mb-4 object-cover" />
               <h3 className="font-bold text-lg">Zinat Humaira Khanam</h3>
               <p className="text-gray-500 text-sm italic">Director</p>

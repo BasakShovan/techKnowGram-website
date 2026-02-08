@@ -30,81 +30,64 @@ const Partners = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           
-          <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
+          <div className="border border-black-500 p-6 h-40 flex items-center justify-center bg-red">
             <img src={p1} alt="Partner 1" className="max-h-full object-contain" />
           </div>
-
-          {/* লোগো ২ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p2} alt="Partner 2" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ৩ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p3} alt="Partner 3" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ৪ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p4} alt="Partner 4" className="max-h-full object-contain" />
           </div>
-
-          {/* লোগো ৫ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p5} alt="Partner 5" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ৬ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p6} alt="Partner 6" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ৭ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p13} alt="Partner 7" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ৮ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p8} alt="Partner 8" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ৯ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p9} alt="Partner 9" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ১০ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p10} alt="Partner 10" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ১১ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p11} alt="Partner 11" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ১২ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p12} alt="Partner 12" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ১৩ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p13} alt="Partner 13" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ১৪ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p14} alt="Partner 14" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ১৫ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p15} alt="Partner 15" className="max-h-full object-contain" />
           </div>
 
-          {/* লোগো ১৬ */}
           <div className="border border-gray-200 p-6 h-40 flex items-center justify-center bg-white">
             <img src={p16} alt="Partner 16" className="max-h-full object-contain" />
           </div>

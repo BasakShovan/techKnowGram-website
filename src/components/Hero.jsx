@@ -8,7 +8,6 @@ import hrto4 from '../assets/hero22.jpg';
 const Hero = () => {
   return (
     <section className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      {/* Left Content */}
       <div className="space-y-6">
         <h1 className="text-6xl font-bold text-gray-900">TechKnowGram</h1>
         <p className="text-black-600 text-base leading-relaxed text-justify">
@@ -18,8 +17,6 @@ const Hero = () => {
           <span>See More</span> <span className="group-hover:translate-x-1">→</span>
         </button>
       </div>
-
-      {/* Right Image Grid (Zig-zag style) */}
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-4">
         <img src={hero1} className="rounded-2xl shadow-lg w-full h-48 object-cover" alt="Meeting" />

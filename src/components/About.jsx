@@ -7,13 +7,13 @@ import about22 from '../assets/about22.jpg';
 
 const About = () => {
   return (
-    // এখানে id="about-section" এবং scroll-mt-24 যোগ করা হয়েছে
+
     <section 
       id="about-section" 
       className="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center bg-white scroll-mt-24"
     >
       
-      {/* Left Image Grid */}
+ 
       <div className="relative grid grid-cols-2 gap-4">
         <div className="space-y-4">
           <img src={about11} className="rounded-3xl shadow-md w-full object-cover h-48" alt="About 1" />
@@ -25,7 +25,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Right Content & Statistics */}
+  
       <div className="space-y-6 text-left">
         <div>
           <span className="text-gray-500 font-medium text-sm">About Us</span>
@@ -48,7 +48,6 @@ const About = () => {
           </button>
         </div>
 
-        {/* Statistics Box */}
         <div className="grid grid-cols-3 gap-4 pt-8">
           <div className="border border-gray-200 p-5 rounded-2xl text-center shadow-sm">
             <p className="text-gray-400 text-[10px] uppercase font-bold">Clients</p>

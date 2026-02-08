@@ -28,8 +28,6 @@ const Navbar = () => {
               <Link to={item.link}>{item.name}</Link>
             </li>
           ))}
-
-          {/* Dropdown Menu: News & Gallery */}
           <li className="relative ml-8 text-sm uppercase font-semibold cursor-pointer group h-full flex items-center">
             <div className="flex items-center group-hover:text-blue-600 transition-all">
               News & Gallery
@@ -37,8 +35,6 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </div>
-
-            {/* Dropdown Box */}
             <div className="absolute left-0 top-full pt-2 hidden group-hover:block transition-all duration-300">
               <ul className="w-48 bg-white shadow-xl border border-gray-100 py-3 rounded-sm">
                 <li className="px-5 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors">
@@ -54,21 +50,15 @@ const Navbar = () => {
           <li className="ml-8 text-sm uppercase font-semibold hover:text-blue-600">
             <Link to="/jobs">Jobs</Link>
           </li>
-
-          {/* Added Contact Link */}
           <li className="ml-8 text-sm uppercase font-semibold hover:text-blue-600">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-
-        {/* Mobile Menu Icon */}
         <div onClick={() => setNav(!nav)} className="md:hidden cursor-pointer">
           <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={nav ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"} />
           </svg>
         </div>
-
-        {/* Mobile Menu Drawer */}
         <div className={nav ? "fixed left-0 top-0 w-[70%] h-screen bg-white p-10 ease-in duration-500 shadow-xl" : "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
           <div className="flex w-full items-center justify-between border-b pb-4">
             <img src={LogoImg} alt="Logo" className="h-10 w-auto" />
